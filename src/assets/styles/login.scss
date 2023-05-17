@@ -1,0 +1,163 @@
+.ant-layout-header {
+    background-color: transparent;
+    // color: #fff;
+    margin: 0;
+    padding: 0 20px;
+    z-index: 9;
+
+    .ant-menu-dark {
+        background-color: transparent;
+    }
+
+    .ant-menu {
+        .ant-menu-submenu {
+            .ant-menu-item {}
+
+            .ant-menu-item-selected {}
+        }
+    }
+}
+
+.ant-layout-content {
+    padding: 0 12px;
+
+    .sign-up-header {
+        height: 550px;
+        margin-top: -64.8px;
+        padding-top: 137.8px;
+        border-radius: 12px;
+        box-shadow: 0 20px 27px rgba(0, 0, 0, .05);
+        background-size: cover;
+        background-position: 50%;
+        text-align: center;
+        position: relative;
+
+        .content {
+            .signup-header-title {
+                font-size: 46px;
+                color: $textWhite;
+                font-weight: 700;
+            }
+
+            .signup-header-subtitle {
+                font-size: 18px;
+                color: $textWhite;
+                font-style: italic;
+            }
+        }
+    }
+
+    .register-wrap-form {
+        display: flex;
+        background: rgb(236, 236, 236);
+        padding: 30px;
+        justify-content: center;
+        margin-top: -273px;
+        .ant-card-head{
+            .ant-card-head-title{
+                text-align: center;
+            }
+        }
+        
+
+        .register-body-form {
+            width: 475px;
+            border-radius: 8px;
+            .ant-card-head {
+
+                .ant-card-head-wrapper {
+
+                    .ant-card-head-title {}
+                }
+            }
+
+            .ant-card-body {
+
+                .register-content {
+
+                    .register-content-selection {
+                        text-align: center;
+                        display: flex;
+                        justify-content: space-around;
+
+                        .ant-btn {
+                            width: 100px;
+                            height: 40px;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                width: 20px;
+                                display: flex;
+                                justify-content: center;
+                                vertical-align: middle;
+                                border-style: none;
+                            }
+                        }
+                    }
+
+                    .register-content-selection--other {
+                        text-align: center;
+                        padding-top: 0.75em;
+                        margin: 25px 0;
+                    }
+
+                    .gradient-line {
+                        border: none;
+                        height: 1px;
+                        background-color: #f5f5f5;
+                        background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, .4), transparent);
+                        opacity: .25;
+                    }
+                    .wrap-label{
+                        margin: 0;
+                        margin-top: -0.75em;
+                        position: relative;
+                        .label {
+                            display: inline-block;
+                            background: #fff;
+                            padding: 0 20px;
+                        }
+                    }
+
+                    .ant-form{
+                        .ant-form-item{
+                            .ant-form-item-label{
+                                text-align: left;
+                            }   
+
+                            .ant-form-item-children{
+                                button {
+                                    background: #1890ff
+                                }
+                            }
+                        }
+                    }
+
+                    
+                }
+
+                .login-form{
+                    .login-form-forgot{
+                        float: right;
+                        color: $blue;
+                    }
+                    .login-form-button{
+                        width:100%;
+                       
+                    }
+
+                    a {
+                        color: $blue !important;
+                    }
+                }
+            }
+        }
+    }
+
+    
+}
+
+.ant-layout-footer {}
